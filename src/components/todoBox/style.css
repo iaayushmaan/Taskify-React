@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:ital@1&family=Caveat:wght@500&display=swap");
+.todobox {
+  display: flex;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 0.15px;
+  align-items: center;
+  margin-top: 10px;
+  padding: 8px;
+  background-image: url("https://img.freepik.com/free-vector/watercolour-background-with-leaves_91008-314.jpg?w=740&t=st=1704143687~exp=1704144287~hmac=b408fd53dd843263c0ae9ead5384429772c2db12b697c25ab17a036e9d88f254");
+  transition: 0.2s;
+}
+
+.todobox:hover {
+  box-shadow: 0 0 10px black;
+  transform: scale(1.06);
+}
+
+.todo_text {
+  font-size: 30px;
+  flex: 1;
+  font-family: "Amaranth", sans-serif;
+  font-family: "Caveat", cursive;
+  overflow: hidden;
+}
+
+.todo_text:focus {
+  outline: none;
+}
+
+.todo_options {
+  padding-right: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.drag {
+  box-shadow: 0 0 20px black;
+}

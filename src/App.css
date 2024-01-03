@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:ital@1&display=swap");
+
+.App {
+  font-family: "Amaranth", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+  background: linear-gradient(to left, #33ccff 0%, #0033cc 100%);
+  height: 100vh;
+  width: 100vw;
+}
+
+.heading {
+  text-align: center;
+  z-index: 1;
+  color: white;
+  font-size: 6vh;
+}

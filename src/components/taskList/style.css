@@ -1,0 +1,38 @@
+.tasks_container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 95%;
+  flex-wrap: wrap;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  border-radius: 20px;
+  padding: 10px;
+  align-items: left;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  width: 48.5%;
+  height: fit-content;
+}
+
+.completed {
+  background-color: rgba(223, 17, 17, 0.863);
+}
+
+.dragComplete {
+  background-color: rgba(255, 11, 11, 0.863);
+}
+
+.dragActive {
+  background-color: rgb(2, 221, 2);
+}
